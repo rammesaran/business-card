@@ -11,6 +11,7 @@ class NewCard extends StatelessWidget {
           body: SafeArea(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 CircleAvatar(
                   radius: 60.0,
@@ -249,7 +250,7 @@ class NewCard extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'Manual Tester',
+                  'Test engineer',
                   style: TextStyle(
                     fontFamily: 'Source Sans Pro',
                     color: Colors.white,
@@ -324,7 +325,7 @@ class NewCard extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'Manual Tester',
+                  'Test engineer',
                   style: TextStyle(
                     fontFamily: 'Source Sans Pro',
                     color: Colors.white,
@@ -474,7 +475,7 @@ class NewCard extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'client engagement specialist',
+                  'Test engineer',
                   style: TextStyle(
                     fontFamily: 'Source Sans Pro',
                     color: Colors.white,
@@ -827,8 +828,7 @@ class NewCard extends StatelessWidget {
           ),
         ),
       ],
-    physics: BouncingScrollPhysics(),
-
+      physics: BouncingScrollPhysics(),
     );
   }
 }
